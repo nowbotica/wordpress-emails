@@ -1,0 +1,1 @@
+<h2><?php echo $tax_name; ?></h2> 

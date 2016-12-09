@@ -1,0 +1,23 @@
+.emails {color:#09712f;}
+.preview-emails {
+	width:60%;
+	background:white url('parts/images/Untitled.png') no-repeat;
+	/*padding:150px 40px;*/
+	padding:75px;
+	background-size:contain;
+	border-bottom:5px #2e2e2e solid;
+	float: left;
+	box-sizing: border-box;
+
+
+}
+.direct-emails {
+	width:35%;
+	margin-right:5%;
+	border: 1px dashed black;
+	padding:20px;
+	border-bottom:5px #2e2e2e solid;
+	float: left;
+	box-sizing: border-box;
+
+}
