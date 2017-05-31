@@ -1,0 +1,71 @@
+<style>
+.page {background:grey;width:100%;min-height:100%;}
+
+.build {width:50%; height:100%; background:white; float:left; padding:10px; box-sizing:border-box;}
+.build > .layout { background:#34495e; padding:15px 0 15px 15px; margin:0 0 10px 0;}
+.build .item.title {background:#e74c3c;}
+.build .item.copy {background:#f1c40f;}
+.build .item.link {background:#16a085;}
+.build .item {padding:5px;}
+.build .item h1 {}
+.build .item p {}
+.build .item a {}
+
+.preview {width:50%; height:100%; background:black; float:left; padding:10px;  box-sizing:border-box;}
+.preview > .layout { border-bottom:1px solid #c3c3d3; padding-bottom:10px; margin-bottom:10px;}
+.preview .item.title {}
+.preview .item.copy {}
+.preview .item.link {}
+.preview .item {}
+.preview .item h1 { color:#c0392b; text-transform:uppercase;font-family:sans-serif;}
+.preview .item p { color: #ecf0f1;}
+.preview .item a { color: #2980b9}
+
+</style>
+<div class="page">
+<section class="build">
+  <article class="layout" id="layout01">
+    <div class="item title">
+     <h1>This is an item</h1> 
+    </div>
+    <div class="item link">
+      <a href="#">This is a link</a>
+    </div>
+  </article>
+  <article class="layout" id="layout02">
+     <div class="item title">
+     <h1>Another title</h1> 
+    </div>
+    <div class="item copy">
+      <p>And here we have some text</p>
+    </div>
+    <div class="item link">
+      <a href="#">Another link</a>
+    </div>
+  
+  </article>
+</section>
+<section class="preview">
+  <article class="layout" id="layout01">
+    <div class="item title">
+     <h1>This is an item</h1> 
+    </div>
+    <div class="item link">
+      <a href="#">This is a link</a>
+    </div>
+  
+  </article>
+  <article class="layout" id="layout02">
+         <div class="item title">
+     <h1>Another title</h1> 
+    </div>
+    <div class="item copy">
+      <p>And here we have some text</p>
+    </div>
+    <div class="item link">
+      <a href="#">Another link</a>
+    </div>
+  </article>
+  
+</section>
+</div>
